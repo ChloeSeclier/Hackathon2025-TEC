@@ -1,0 +1,7 @@
+.footer {
+  border: red solid 1px;
+}
+/* pour cibler un element utiliser les chevrons (ex: elementParent>elementChildren) */
+.footer > p {
+  text-align: center;
+}
