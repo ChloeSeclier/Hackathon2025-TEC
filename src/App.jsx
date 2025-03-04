@@ -1,10 +1,19 @@
-import './App.css';
-import Test from './test';
+import { Outlet } from 'react-router-dom';
+
+import Footer from './components/footer';
+import Header from './components/header';
 
 function App() {
+  // const { pathname } = useLocation();
+
   return (
     <>
-      <Test />
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+
+      <Footer />
     </>
   );
 }

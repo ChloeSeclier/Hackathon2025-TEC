@@ -1,4 +1,4 @@
-export default function Test() {
+export default function Home() {
   return (
     <>
       <p>Charles-Eric</p>
