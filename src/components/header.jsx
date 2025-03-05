@@ -27,7 +27,7 @@ export default function Header() {
             <Link to="/regles-jeu">Gagne des vacances</Link>
           </li>
           <li>
-            <Link to="/Lots" className="cadeaux-link">
+            <Link to="/Lots" >
               Cadeaux
             </Link>
           </li>
