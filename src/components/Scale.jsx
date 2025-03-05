@@ -32,7 +32,7 @@ function Scale() {
       <div className="box-minmax">
         <span>En forme 💪</span>
         <span>T'es mort 🧟</span>
-      </div> 
+      </div>
     </div>
   );
 }
