@@ -43,7 +43,7 @@
 
   .burger {
     display: none;
-
+    padding-right: 10px;
     top: 0.75rem;
     right: 0.5rem;
     flex-direction: column;
