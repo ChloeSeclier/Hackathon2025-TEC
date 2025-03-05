@@ -7,7 +7,7 @@ export default function ReglesJeu() {
       <div className="jeu">
         <p>Vous allez jouer ....!!!! ECRIRE LES REGLES !!!!</p>
         <p>Etes-vous prêt ?</p>
-        <Link to="/jeu">TENTER MA CHANCE</Link>
+        <Link to="/jeu">C'est partit !</Link>
       </div>
     </>
   );

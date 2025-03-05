@@ -17,8 +17,7 @@ export default function Home() {
         </h2>
 
         <Carousel />
-        <Link to="/jeu">TENTER MA CHANCE</Link>
-
+        <Link to="/regles-jeu">TENTER MA CHANCE</Link>
       </div>
     </>
   );
