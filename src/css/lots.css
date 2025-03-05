@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700');
 
 .lots {
-  background-color: #f5f6ed;
+  background-color:  #F9EDD9;
   display: grid;
   justify-content: center;
 
@@ -13,8 +13,8 @@
   }
 
   img {
-    width: 380px;
-    height: 220px;
+    width: 23.75rem;
+    height: 13.75rem;
     border-radius: 4%;
   }
   li {
@@ -36,19 +36,19 @@
 @media (min-width: 320px) and (max-width: 768px) {
   .lots {
     h1 {
-      font-size: 18px;
+      font-size: 1.2rem;
       display: flex;
       justify-content: center;
     }
 
     img {
-      width: 180px;
-      height: 120px;
+      width: 11.25rem;
+      height: 7.5rem;
       border-radius: 4%;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 1rem;
     }
   }
 }
