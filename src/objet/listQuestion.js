@@ -12,7 +12,7 @@ export const listQuestion = [
         point: 1,
       },
     ],
-    typeRep: 'vrai_faux',
+    typeRep: 'boolean',
   },
   {
     idQuestion: 2,
@@ -33,6 +33,6 @@ export const listQuestion = [
         point: 0,
       },
     ],
-    typeRep: 'vrai_faux',
+    typeRep: 'boolean',
   },
 ];
