@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700');
+
+.lots{
+
+    background-color:#F5F6ED ;
+display: grid;
+justify-content: center;
+
+
+ul{
+    padding: 0%;
+display: grid;
+justify-content: center;
+align-items: center;
+
+}
+
+img{
+
+    width: 380px;
+    height: 220px;
+    border-radius: 4%;
+}
+li{
+    list-style: none;  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    }
+  
+}
+
+h1{
+    font-family: 'Cormorant', serif;
+    
+}
+h2{
+    font-family: 'Cormorant', serif;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+
+.lots{
+
+
+h1{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+
+    width: 180px;
+    height: 120px;
+    border-radius: 4%;
+    
+   
+
+}
+
+h2{
+
+    font-size: 20px;
+}
+
+}
+}

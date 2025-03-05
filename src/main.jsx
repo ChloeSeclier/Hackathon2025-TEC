@@ -4,8 +4,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import './main.css';
-import Error404 from './pages/Error404';
-import Home from './pages/Home';
+import Error404 from './pages/error404';
+import Home from './pages/home';
+import Lots from './pages/Lots';
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
       {
         path: '*',
         element: <Error404 />,
+      },
+
+      {
+        path: '/lots',
+        element: <Lots/>,
       },
     ],
   },
