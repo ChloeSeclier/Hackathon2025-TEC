@@ -8,20 +8,19 @@ export default function Jeu() {
   const [answerChoiced, setAnswerChoiced] = useState(0);
 
   function handleValider() {
+    // if(answerChoiced)
     setScore(score + answerChoiced);
     setIndexQuestion(indexQuestion + 1);
     setAnswerChoiced(0);
   }
-  console.log(indexQuestion);
 
   return (
     <div className="container-jeu">
-      {listQuestion.length > indexQuestion  ? (
+      {listQuestion.length > indexQuestion ? (
         <>
           <div className="question">{listQuestion[indexQuestion].question}</div>
           {question.typeRep === 'boolean' ? (
             //Display les 2 boutons pour vrai ou faux
-
             question.reponses.map((answer, index) => (
               <div key={index} className="button-boolean">
                 <input
@@ -35,8 +34,8 @@ export default function Jeu() {
               </div>
             ))
           ) : (
-            //Display l'échelle
-            <p>non</p>
+            //Display l'échelle faire le if dans l'échelle et sortir 1 ou 0 dans setAnswerChoiced()
+            <p>échelle</p>
           )}
           <button type="button" onClick={handleValider}>
             Valider
@@ -45,7 +44,7 @@ export default function Jeu() {
           <p>Score : {score}</p>
         </>
       ) : (
-        <p>afficher score</p>
+        <p>afficher score {score}</p>
       )}
     </div>
   );
