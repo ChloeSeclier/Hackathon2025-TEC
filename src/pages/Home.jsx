@@ -1,5 +1,6 @@
 import '../css/home.css';
 import Carousel from '../components/Carousel';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
           Laissez-vous tenter par notre jeu pour gagner un moment de détente
           selon votre besoin.
         </h2>
-
         <Carousel />
+        <Link to="/regles-jeu">TENTER MA CHANCE</Link>
       </div>
     </>
   );
