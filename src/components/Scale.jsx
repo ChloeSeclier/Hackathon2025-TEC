@@ -1,24 +1,16 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { ScaleContext } from '../components/scaleContext';
 import '../css/scale.css';
 
 function Scale() {
-  // Valeur du slider
-  const [value, setValue] = useState(0);
-  // Calculer la position du bullet
-  const max = 5;
-  const bulletPosition = (value / max) * 578; // Calcul de la position du bullet
+  const { value, handleSliderChange } = useContext(ScaleContext);
 
-  const handleSliderChange = (event) => {
-    setValue(event.target.value); // Mettre à jour la valeur du slider
-  };
+  const max = 5;
+  const bulletPosition = (value / max) * 578;
 
   return (
     <div className="container">
-      <div
-        className="range-slider"
-        //   style={{ position: 'relative' }}
-      >
-        {/* Afficher la valeur dynamique du bullet */}
+      <div className="range-slider">
         <span
           id="rs-bullet"
           className="rs-label"
@@ -33,15 +25,14 @@ function Scale() {
           value={value}
           min="0"
           max={max}
-          onInput={handleSliderChange}
+          onInput={(event) => handleSliderChange(event.target.value)}
         />
       </div>
 
       <div className="box-minmax">
-        <span>0</span>
-
-        <span>{max}</span>
-      </div>
+        <span>En forme 💪</span>
+        <span>T'es mort 🧟</span>
+      </div> 
     </div>
   );
 }
