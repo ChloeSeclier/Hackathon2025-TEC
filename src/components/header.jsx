@@ -8,14 +8,12 @@ export default function Header() {
         <Link to="/">
           <img src="src\assets\logo.png" alt="" />
         </Link>
-        <ul>
+        <ul className="link-header">
           <li>
-            <Link to="/jeu">Gagne des vacances</Link>
+            <Link to="/regles-jeu">Gagne des vacances</Link>
           </li>
           <li>
-            <Link to="/Lots">
-              Cadeaux
-            </Link>
+            <Link to="/Lots">Cadeaux</Link>
           </li>
           <li>Règlement</li>
           <li>Connexion</li>

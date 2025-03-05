@@ -1,0 +1,12 @@
+.jeu {
+  background-color: #fce7cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/background.png');
+
+  .background-jeu {
+    /* background-image: url('../assets/background.png'); */
+  }
+}

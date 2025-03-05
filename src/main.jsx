@@ -8,6 +8,7 @@ import Error404 from './pages/error404';
 import Home from './pages/Home';
 import Lots from './pages/Lots';
 import Jeu from './components/jeu';
+import ReglesJeu from './components/reglesJeu';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/regles-jeu',
+        element: <ReglesJeu />,
       },
       {
         path: '/jeu',

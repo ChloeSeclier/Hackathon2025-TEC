@@ -12,13 +12,15 @@
     height: 12dvh;
   }
 
-  a {
-    text-decoration: none;
-    color: #2f2507;
-  }
+  .link-header {
+    a {
+      text-decoration: none;
+      color: #2f2507;
+    }
 
-  a:hover {
-    border-bottom: #5d5c0b solid 2px;
+    a:hover {
+      border-bottom: #5d5c0b solid 2px;
+    }
   }
 
   ul {
