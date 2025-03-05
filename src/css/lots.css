@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700');
 
 .lots {
-  background-color:  #F9EDD9;
+  background-color: #f9edd9;
   display: grid;
   justify-content: center;
 
@@ -33,6 +33,7 @@
     justify-content: center;
   }
 }
+
 @media (min-width: 320px) and (max-width: 768px) {
   .lots {
     h1 {

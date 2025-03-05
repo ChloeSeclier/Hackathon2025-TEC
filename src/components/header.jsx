@@ -11,28 +11,29 @@ export default function Header() {
         <Link to="/">
           <img src="src\assets\logo.png" alt="" />
         </Link>
-        
-          <div
-            className="burger"
-            onClick={() => {
-              setMenuOpen(!menuOpen);
-            }}
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <ul className={menuOpen ? 'open' : ''}>
-            <li>Gagne des Vacances</li>
-            <li>
-              <Link to="/Lots" className="cadeaux-link">
-                Cadeaux
-              </Link>
-            </li>
-            <li>Règlement</li>
-            <li>Connexion</li>
-          </ul>
-        
+
+        <div
+          className="burger"
+          onClick={() => {
+            setMenuOpen(!menuOpen);
+          }}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul className={`link-header ${menuOpen ? 'open' : ''}`}>
+          <li>
+            <Link to="/regles-jeu">Gagne des vacances</Link>
+          </li>
+          <li>
+            <Link to="/Lots" className="cadeaux-link">
+              Cadeaux
+            </Link>
+          </li>
+          <li>Règlement</li>
+          <li>Connexion</li>
+        </ul>
       </header>
     </>
   );
