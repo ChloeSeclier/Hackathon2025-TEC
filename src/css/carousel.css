@@ -3,6 +3,7 @@
   overflow: hidden;
   height: 50vh;
 }
+.carousel{
 .image-container {
   width: 50vw;
 }
@@ -16,4 +17,5 @@
 }
 .chevron {
   height: 10vh;
+}
 }
