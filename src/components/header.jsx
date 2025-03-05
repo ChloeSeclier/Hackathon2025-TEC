@@ -4,7 +4,18 @@ export default function Header() {
   return (
     <>
       <header className="header">
-        <p>je suis un header</p>
+        <a href="/">
+          <img src="src\assets\logo.png" alt="" />
+        </a>
+
+        <ul>
+          <li>Gagne des Vacances</li>
+          <li>
+            <a href="/Lots">Cadeaux</a>
+          </li>
+          <li>Règlement</li>
+          <li>Connexion</li>
+        </ul>
       </header>
     </>
   );

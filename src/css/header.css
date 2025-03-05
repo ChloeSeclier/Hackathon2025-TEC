@@ -1,7 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700');
+
 .header {
-  border: red solid 1px;
+  border-bottom: #5d5c0b solid 2px;
+  background-color: #f0c256;
+  color: #2f2507;
+  height: 70px;
+  display: flex;
+
+  img {
+    width: 80px;
+    height: 80px;
+
+    /* background-color: aqua; */
+  }
+  a {
+    text-decoration: none;
+    color: #2f2507;
+  }
+
+  ul {
+    /* background-color: aqua; */
+    margin-top: 0%;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+    width: 600px;
+    font-size: 26px;
+    font-family: 'Cormorant', serif;
+    margin-left: auto;
+    padding-top: 15px;
+  }
 }
-/* pour cibler un element utiliser les chevrons (ex: elementParent>elementChildren) */
-.header > p {
-  text-align: center;
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .header {
+    ul {
+      display: none;
+    }
+  }
 }
