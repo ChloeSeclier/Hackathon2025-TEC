@@ -9,7 +9,7 @@ export default function ReglesJeu() {
         <p>Vous allez jouer ....!!!! ECRIRE LES REGLES !!!!</p>
         <p>Etes-vous prêt ?</p>
         <Link to="/jeu">
-          <ButtonPlay />{' '}
+          <ButtonPlay />
         </Link>
       </div>
     </>
