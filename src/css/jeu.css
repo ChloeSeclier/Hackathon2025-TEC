@@ -1,8 +1,44 @@
-.jeu {
-  background-color: #fce7cb;
+.container-jeu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .sous-container-jeu {
+    background-color: #f0c256;
+    margin: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  .sous-sous-container-jeu {
+    background-color: #2f2507;
+    border-radius: 0.6rem;
+    margin: 0.5rem;
+    padding: 1.2rem;
+  }
+
+  .question {
+    color: #fce7cb;
+    font-size: 1.8rem;
+  }
+
+  .button-boolean {
+    margin: 1rem;
+    color: #fce7cb;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: #f0c256;
+  }
+
+  /* CSS A TROUVER STYLE */
+  .button-valider {
+    font-family: 'Cormorant', serif;
+    font-size: 1.8rem;
+    margin: 1rem;
+  }
 }
