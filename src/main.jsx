@@ -7,6 +7,7 @@ import './main.css';
 import Error404 from './pages/error404';
 import Home from './pages/Home';
 import Lots from './pages/Lots';
+import Jeu from './components/jeu';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
       },
-
+      {
+        path: '/jeu',
+        element: <Jeu />,
+      },
       {
         path: '/lots',
         element: <Lots />,
