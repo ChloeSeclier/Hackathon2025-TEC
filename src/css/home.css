@@ -1,7 +1,12 @@
 .home {
-  background-image: url('../assets/background.png');
+  background-image:  url('../assets/background.png') ;
+  background:transparent;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 20%;
-  font-size: 1.2rem;
+  /* opacity: 20%; */
+  /* backdrop-filter: blur(2px);
+   */
+   backdrop-filter: brightness(60%);
+   font-size: 1.2rem;
+  /* position: absolute; */
 }
