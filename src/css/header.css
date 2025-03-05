@@ -20,7 +20,7 @@
   .cadeaux-link:hover {
     border-bottom: #5d5c0b solid 2px;
   }
-  ul {
+   ul {
     
     list-style: none;
     display: flex;
@@ -30,8 +30,10 @@
     font-size: 1.5rem;
     font-family: 'Cormorant', serif;
     margin-left: auto;
-    
+    font-weight: bold;
   }
+
+
 
   li {
     border-bottom: transparent solid 2px;
@@ -40,12 +42,77 @@
   li:hover {
     border-bottom: #5d5c0b solid 2px;
   }
+
+.burger{
+  display:none;
+
+top: 0.75rem;
+right: 0.5rem;
+flex-direction:column;
+justify-content: space-between;
+width: 2.25rem;
+height: 2rem;
+
+
+span{
+  height: 0.4rem;
+  width: 100%;
+  background-color: #2f2507;
+  border-radius: 0.2rem;
 }
+
+}
+
+
+
+
+}
+
+
+
 
 @media (min-width: 320px) and (max-width: 768px) {
   .header {
-    ul {
+
+   
+  
+
+display: flex;
+justify-content: space-between;
+
+ 
+
+
+
+
+
+      .burger{
+  display: flex;}
+ 
+  ul {
       display: none;
+      flex-direction: column;
+     /* position: absolute; */
+      background-color: white;
+      height: 18dvh;
+     /* margin-top: 40px; */
+     justify-content: center;
     }
-  }
+    
+    a {
+/* margin: 0.2rem 0.5rem; */
+
+    }
+    .open{
+
+  display: flex;
+  /* padding-top: 120px; */
+  margin-top: 200px;
+  
 }
+   };
+   
+}
+
+  
+
