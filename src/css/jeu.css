@@ -8,11 +8,12 @@
   background-size: cover;
   
   .sous-container-jeu {
-    background-color: #f0c256;
+    background-color: #F5F6ED;
     margin: 1rem;
     border-radius: 0.6rem;
     width: 70dvw;
-    height: 40dvh;
+    height: 55dvh;
+    box-shadow: 10px 10px 5px #b8a765;
   }
   
   .sous-sous-container-jeu {
@@ -22,7 +23,8 @@
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
-    height: 32dvh;
+    justify-content: space-around;
+    height: 47dvh;
   }
 
   .question {
@@ -54,4 +56,11 @@
     color:#fce7cb;
     text-align: center;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .container-jeu {
+  .sous-container-jeu{
+    width: 96dvw;
+  }}
 }
