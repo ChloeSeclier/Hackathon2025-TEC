@@ -1,12 +1,13 @@
 .home {
-  background-image:  url('../assets/background.png') ;
-  background:transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../assets/background.png');
+    /* background-blend-mode: multiply; */
+  /* background: transparent; */
   background-repeat: no-repeat;
+  /* background-blend-mode: lighten; */
   background-size: cover;
   /* opacity: 20%; */
   /* backdrop-filter: blur(2px);
    */
-   backdrop-filter: brightness(60%);
-   font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   /* position: absolute; */
 }

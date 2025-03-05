@@ -6,6 +6,7 @@ import App from './App';
 import './main.css';
 import Error404 from './pages/error404';
 import Home from './pages/Home';
+
 const router = createBrowserRouter([
   {
     element: <App />,
