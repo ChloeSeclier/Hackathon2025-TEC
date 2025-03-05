@@ -16,7 +16,9 @@ export default function Home() {
           selon votre besoin.
         </h2>
         <Carousel />
-        <button><Link to="/regles-jeu">TENTER MA CHANCE</Link></button>
+        <button>
+          <Link to="/regles-jeu">TENTER MA CHANCE</Link>
+        </button>
       </div>
     </>
   );
