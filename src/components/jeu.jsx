@@ -11,7 +11,6 @@ export default function Jeu() {
   const { value } = useContext(ScaleContext);
 
   function handleValider() {
-    // if(answerChoiced)
     setScore(score + answerChoiced);
     setIndexQuestion(indexQuestion + 1);
     setAnswerChoiced(0);
@@ -25,9 +24,6 @@ export default function Jeu() {
       }
     }
   }, [value]);
-
-  console.log(score);
-
   return (
     <div className="container-jeu">
       <div className="sous-container-jeu">
