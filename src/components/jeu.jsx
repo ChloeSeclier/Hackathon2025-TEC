@@ -52,7 +52,7 @@ export default function Jeu() {
               </button>
             </>
           ) : (
-            <p>afficher score + recompenses {score}</p>
+            <p className="resultat-jeu">afficher score + recompenses {score}</p>
           )}
         </div>
       </div>

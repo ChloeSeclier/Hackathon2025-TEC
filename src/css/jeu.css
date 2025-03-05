@@ -6,23 +6,29 @@
   background-image: url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
-
+  
   .sous-container-jeu {
     background-color: #f0c256;
     margin: 1rem;
     border-radius: 0.6rem;
+    width: 70dvw;
+    height: 40dvh;
   }
-
+  
   .sous-sous-container-jeu {
     background-color: #2f2507;
     border-radius: 0.6rem;
     margin: 0.5rem;
     padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    height: 32dvh;
   }
 
   .question {
     color: #fce7cb;
     font-size: 1.8rem;
+    text-align: center;
   }
 
   .button-boolean {
@@ -31,8 +37,9 @@
     font-size: 1.8rem;
     display: flex;
     flex-direction: row;
-    width: 50%;
-    background-color: #f0c256;
+    justify-content: space-around;
+    align-self: center;
+    width: 50dvw;
   }
 
   /* CSS A TROUVER STYLE */
@@ -40,5 +47,11 @@
     font-family: 'Cormorant', serif;
     font-size: 1.8rem;
     margin: 1rem;
+    align-self: center;
+  }
+
+  .resultat-jeu{
+    color:#fce7cb;
+    text-align: center;
   }
 }
