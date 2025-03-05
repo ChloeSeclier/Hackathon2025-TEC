@@ -1,3 +1,7 @@
-.home{
-    background-color: red;
+.home {
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 20%;
+  font-size: 1.2rem;
 }
