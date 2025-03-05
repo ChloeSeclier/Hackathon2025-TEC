@@ -3,5 +3,5 @@
 }
 /* pour cibler un element utiliser les chevrons (ex: elementParent>elementChildren) */
 .header > p {
-  text-align: center; 
+  text-align: center;
 }
