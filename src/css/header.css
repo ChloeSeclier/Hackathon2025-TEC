@@ -21,7 +21,7 @@
     border-bottom: #5d5c0b solid 2px;
   }
   ul {
-    margin-top: 0%;
+    
     list-style: none;
     display: flex;
     justify-content: end;
@@ -30,7 +30,7 @@
     font-size: 1.5rem;
     font-family: 'Cormorant', serif;
     margin-left: auto;
-    padding-top: 15px;
+    
   }
 
   li {

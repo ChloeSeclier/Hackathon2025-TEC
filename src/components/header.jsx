@@ -6,13 +6,12 @@ export default function Header() {
     <>
       <header className="header">
         <Link to="/">
-          <img src="src\assets\logo.png" alt="" />{' '}
+          <img src="src\assets\logo.png" alt="" />
         </Link>
         <ul>
           <li>Gagne des Vacances</li>
           <li>
-            <Link to="/Lots" className="cadeaux-link">
-              {' '}
+            <Link to="/Lots" className="cadeaux-link">     
               Cadeaux
             </Link>
           </li>
