@@ -1,10 +1,23 @@
 import '../css/header.css';
-// dans le header, on peut utimiser que des balise div,nav,menu,ul et li
+import { Link } from 'react-router-dom';
+
 export default function Header() {
   return (
     <>
       <header className="header">
-        <p>je suis un header</p>
+        <Link to="/">
+          <img src="src\assets\logo.png" alt="" />
+        </Link>
+        <ul className="link-header">
+          <li>
+            <Link to="/regles-jeu">Gagne des vacances</Link>
+          </li>
+          <li>
+            <Link to="/Lots">Cadeaux</Link>
+          </li>
+          <li>Règlement</li>
+          <li>Connexion</li>
+        </ul>
       </header>
     </>
   );

@@ -5,7 +5,11 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import './main.css';
 import Error404 from './pages/error404';
-import Home from './pages/home';
+import Home from './pages/Home';
+import Lots from './pages/Lots';
+import Jeu from './components/jeu';
+import ReglesJeu from './components/reglesJeu';
+
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -13,6 +17,18 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/regles-jeu',
+        element: <ReglesJeu />,
+      },
+      {
+        path: '/jeu',
+        element: <Jeu />,
+      },
+      {
+        path: '/lots',
+        element: <Lots />,
       },
       {
         path: '*',
