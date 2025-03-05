@@ -5,7 +5,7 @@
   justify-content: center;
 }
 .box-minmax {
-  /* margin-top: 30px; */
+  margin-top: 30px;
   width: 608px;
   display: flex;
   justify-content: space-between;
