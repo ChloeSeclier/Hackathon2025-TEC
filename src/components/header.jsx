@@ -22,7 +22,7 @@ export default function Header() {
           <span></span>
           <span></span>
         </div>
-        <ul className={`link-header ${menuOpen ? 'open' : ''}`}>
+        <ul  onClick={()=>{ setMenuOpen(!menuOpen,)}}   className={`link-header ${menuOpen ? 'open' : ''}`}>
           <li>
             <Link to="/regles-jeu">Gagne des vacances</Link>
           </li>
