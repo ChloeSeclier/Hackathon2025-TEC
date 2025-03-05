@@ -15,14 +15,14 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
       },
-      {
-        path: '*',
-        element: <Error404 />,
-      },
 
       {
         path: '/lots',
-        element: <Lots/>,
+        element: <Lots />,
+      },
+      {
+        path: '*',
+        element: <Error404 />,
       },
     ],
   },
