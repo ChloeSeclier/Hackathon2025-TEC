@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 
-import Footer from './components/footer';
-import Header from './components/header';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   // const { pathname } = useLocation();
