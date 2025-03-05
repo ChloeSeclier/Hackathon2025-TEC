@@ -15,10 +15,8 @@ export default function Home() {
           Laissez-vous tenter par notre jeu pour gagner un moment de détente
           selon votre besoin.
         </h2>
-
         <Carousel />
         <Link to="/jeu">TENTER MA CHANCE</Link>
-
       </div>
     </>
   );
