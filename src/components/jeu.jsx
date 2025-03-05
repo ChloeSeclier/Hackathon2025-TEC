@@ -1,11 +1,14 @@
-import { useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { listQuestion } from '../objet/listQuestion';
+import Scale from '../components/Scale';
+import { ScaleContext, ScaleProvider } from '../components/scaleContext';
 
 export default function Jeu() {
   const [indexQuestion, setIndexQuestion] = useState(0);
   const question = listQuestion[indexQuestion];
   const [score, setScore] = useState(0);
   const [answerChoiced, setAnswerChoiced] = useState(0);
+  const { value } = useContext(ScaleContext);
 
   function handleValider() {
     // if(answerChoiced)
@@ -13,6 +16,17 @@ export default function Jeu() {
     setIndexQuestion(indexQuestion + 1);
     setAnswerChoiced(0);
   }
+  useEffect(() => {
+    if (question.typeRep !== 'boolean' && listQuestion.length > indexQuestion) {
+      if (value > 3) {
+        setAnswerChoiced(1);
+      } else {
+        setAnswerChoiced(0);
+      }
+    }
+  }, [value]);
+
+  console.log(score);
 
   return (
     <div className="container-jeu">
@@ -39,8 +53,7 @@ export default function Jeu() {
                     </div>
                   ))
                 ) : (
-                  //Display l'échelle faire le if dans l'échelle et sortir 1 ou 0 dans setAnswerChoiced()
-                  <p>échelle</p>
+                  <Scale />
                 )}
               </div>
               <button

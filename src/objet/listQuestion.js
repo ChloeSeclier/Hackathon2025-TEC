@@ -17,7 +17,6 @@ export const listQuestion = [
   {
     idQuestion: 2,
     question: 'A quel point es-tu fatigué ?',
-    //0 en forme - 5 mort
     typeRep: 'echelle',
   },
   {
