@@ -1,0 +1,21 @@
+.carousel {
+  display: flex;
+  overflow: hidden;
+  height: 50vh;
+
+    .image-container {
+      width: 50vw;
+    }
+    .card-carousel {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+    .img {
+      width: 100%;
+    }
+    .chevron {
+      height: 10vh;
+    }
+}
+
