@@ -22,6 +22,9 @@
     font-family: 'Cormorant', serif;
     margin-left: auto;
     font-weight: bold;
+    top: -19.2vh;
+    padding-left: 0;
+    text-align: center;
 
     a {
       text-decoration: none;
@@ -43,7 +46,7 @@
 
   .burger {
     display: none;
-    padding-right: 10px;
+    padding-right: 2vh;
     top: 0.75rem;
     right: 0.5rem;
     flex-direction: column;
@@ -64,7 +67,7 @@
   .header {
     display: flex;
     justify-content: space-between;
-
+    position: relative;
     .burger {
       display: flex;
     }
@@ -73,14 +76,14 @@
       display: none;
       flex-direction: column;
       position: absolute;
-
       background-image:
         linear-gradient(rgba(214, 208, 208, 0.5), rgba(207, 201, 201, 0.5)),
         url(../assets/background.png);
 
       height: 20dvh;
-      padding-top: 10px;
+
       justify-content: center;
+      width: 100%;
     }
 
     .open {
