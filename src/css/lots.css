@@ -13,7 +13,7 @@
   }
 
   img {
-    width: 23.75rem;
+    min-width: 250px;
     height: 13.75rem;
     border-radius: 4%;
   }
