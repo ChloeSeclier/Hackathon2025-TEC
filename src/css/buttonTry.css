@@ -1,0 +1,67 @@
+.buttonTry {
+  all: unset;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.6em 2em;
+  border: #f0c256 solid 0.15em;
+  border-radius: 0.25em;
+  color: #f0c256;
+  font-size: 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    border 300ms,
+    color 300ms;
+  user-select: none;
+}
+
+.buttonTry p {
+  z-index: 1;
+}
+
+.buttonTry:hover {
+  color: #212121;
+}
+
+.buttonTry:active {
+  border-color: rgb(227, 219, 141);
+}
+
+.buttonTry::after,
+.buttonTry::before {
+  content: '';
+  position: absolute;
+  width: 9em;
+  aspect-ratio: 1;
+  background: #f0c256;
+  opacity: 70%;
+  border-radius: 50%;
+  transition:
+    transform 500ms,
+    background 300ms;
+}
+
+.buttonTry::before {
+  left: 0;
+  transform: translateX(-8em);
+}
+
+.buttonTry::after {
+  right: 0;
+  transform: translateX(8em);
+}
+
+.buttonTry:hover:before {
+  transform: translateX(-1em);
+}
+
+.buttonTry:hover:after {
+  transform: translateX(1em);
+}
+
+.buttonTry:active:before,
+.buttonTry:active:after {
+  background: rgb(228, 234, 159);
+}

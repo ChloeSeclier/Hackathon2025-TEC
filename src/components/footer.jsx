@@ -1,11 +1,12 @@
 import '../css/footer.css';
-//en génréral dans le footer on met les info obligatoire comme les mentions légales et poloitique de confidentialité
-// on peut mettre aussi des informations pratique comme address
+import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <>
       <footer className="footer">
-        <p>je suis un footer</p>
+        <Link to="/contact"> Contact</Link>
+        <Link to="/contact"> Politique de confidentialitée</Link>
+        <Link to="/contact"> Mentions légales</Link>
       </footer>
     </>
   );

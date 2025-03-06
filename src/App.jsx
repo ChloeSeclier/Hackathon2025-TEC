@@ -1,18 +1,18 @@
 import { Outlet } from 'react-router-dom';
-
+import { ScaleProvider } from './components/scaleContext';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import './App.css';
 
 function App() {
-  // const { pathname } = useLocation();
-
   return (
     <>
       <Header />
       <main>
-        <Outlet />
+        <ScaleProvider>
+          <Outlet />
+        </ScaleProvider>
       </main>
-
       <Footer />
     </>
   );
