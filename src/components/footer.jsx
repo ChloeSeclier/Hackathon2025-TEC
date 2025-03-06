@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <>
       <footer className="footer">
-        <Link to="/#contact"> Contact</Link>
+        <Link to="/contact"> Contact</Link>
         <Link to="/contact"> Politique de confidentialitée</Link>
-        <Link to="/contact#mentions"> Mentions légales</Link>
+        <Link to="/contact"> Mentions légales</Link>
       </footer>
     </>
   );
