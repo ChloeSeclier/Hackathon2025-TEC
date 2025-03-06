@@ -20,6 +20,9 @@
     font-size: 1.8rem;
     color: #5d5c0b;
   }
+  .no-underline {
+    text-decoration: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
