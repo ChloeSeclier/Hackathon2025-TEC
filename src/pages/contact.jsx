@@ -8,14 +8,13 @@ export default function Contact() {
               <h1>Contact</h1>
               <h2>Nous contacter pour votre récompense</h2>
               <p>
-
-              Félicitations pour avoir remporté votre récompense ! Pour la
-              recevoir, veuillez nous contacter en envoyant un email avec une
-              capture d'écran de votre victoire. Envoyez votre screenshot à
-              l'adresse suivante : nepasecrire@vraiment.com. Nous traiterons votre demande
-              dans les plus brefs délais.
+                Félicitations pour avoir remporté votre récompense ! Pour la
+                recevoir, veuillez nous contacter en envoyant un email avec une
+                capture d'écran de votre victoire. Envoyez votre screenshot à
+                l'adresse suivante : nepasecrire@vraiment.com. Nous traiterons
+                votre demande dans les plus brefs délais.
               </p>
-                <h2>Nous contacter</h2>
+              <h2>Nous contacter</h2>
               <p>
                 Cette page est dédiée à votre prise de contact. Si vous avez des
                 questions, des demandes ou des informations à partager,
