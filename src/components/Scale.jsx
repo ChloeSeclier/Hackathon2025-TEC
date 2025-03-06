@@ -31,12 +31,10 @@ function Scale() {
 
       <div className="box-minmax">
         <div className="form">
-          <p> En forme</p>
-          <div> 💪</div>
+          <p> En forme 💪</p>
         </div>
         <div className="dead">
-          <p>T'es mort </p>
-          <div>🧟</div>
+          <p>T'es mort 🧟</p>
         </div>
       </div>
     </div>

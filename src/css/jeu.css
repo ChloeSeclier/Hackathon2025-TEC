@@ -75,5 +75,8 @@
     .sous-container-jeu {
       width: 96dvw;
     }
+    .sous-sous-container-jeu{
+      width: 80dvw;
+    }
   }
 }
