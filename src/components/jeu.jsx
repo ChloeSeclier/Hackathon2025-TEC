@@ -57,7 +57,19 @@ export default function Jeu() {
                 onClick={handleValider}
                 className="button-valider"
               >
-                Valider
+                
+
+
+    <span class="circle1"></span>
+    <span class="circle2"></span>
+    <span class="circle3"></span>
+    <span class="circle4"></span>
+    <span class="circle5"></span>
+    <span class="text">Valider</span>
+
+
+
+
               </button>
             </>
           ) : (
