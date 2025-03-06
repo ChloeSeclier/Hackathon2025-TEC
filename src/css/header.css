@@ -82,10 +82,10 @@
       justify-content: center;
       width: 100%;
       font-size: 1.8rem;
-      gap:10px;
+      gap: 10px;
     }
-    
-    li:hover{
+
+    li:hover {
       border-bottom: transparent;
     }
 
