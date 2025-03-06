@@ -22,6 +22,7 @@
     font-family: 'Cormorant', serif;
     margin-left: auto;
     font-weight: bold;
+    z-index: 2;
 
     a {
       text-decoration: none;
