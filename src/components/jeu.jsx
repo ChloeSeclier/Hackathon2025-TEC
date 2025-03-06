@@ -31,25 +31,25 @@ export default function Jeu() {
           {listQuestion.length > indexQuestion ? (
             <>
               <p className="question">{listQuestion[indexQuestion].question}</p>
-              <div className="button-boolean">
-                {question.typeRep === 'boolean' ? (
-                  //Display les 2 boutons pour vrai ou faux
-                  question.reponses.map((answer, index) => (
-                    <div key={index}>
-                      <input
-                        type="radio"
-                        id={answer.reponse}
-                        name="jeu"
-                        value={answer.point}
-                        onChange={() => setAnswerChoiced(answer.point)}
-                      />
-                      <label htmlFor={answer.reponse}>{answer.reponse}</label>
-                    </div>
-                  ))
-                ) : (
-                  <Scale />
-                )}
-              </div>
+
+              {question.typeRep === 'boolean' ? (
+                //Display les 2 boutons pour vrai ou faux
+                question.reponses.map((answer, index) => (
+                  <div key={index} className="button-boolean">
+                    <input
+                      type="radio"
+                      id={answer.reponse}
+                      name="jeu"
+                      value={answer.point}
+                      onChange={() => setAnswerChoiced(answer.point)}
+                    />
+                    <label htmlFor={answer.reponse}>{answer.reponse}</label>
+                  </div>
+                ))
+              ) : (
+                <Scale />
+              )}
+
               <button
                 type="button"
                 onClick={handleValider}

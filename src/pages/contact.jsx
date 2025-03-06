@@ -69,7 +69,7 @@ export default function Contact() {
           vous acceptez l'utilisation de cookies.
         </p>
         <br />
-        <p> 
+        <p>
           Vous pouvez paramétrer votre navigateur pour refuser l'utilisation des
           cookies, mais cela pourrait affecter l'expérience du jeu.
         </p>

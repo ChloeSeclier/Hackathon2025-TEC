@@ -9,7 +9,7 @@ function Scale() {
   const bulletPosition = (value / max) * 100;
 
   return (
-    <div className="container">
+    <div className="container-scale">
       <div className="range-slider">
         <span
           id="rs-bullet"
