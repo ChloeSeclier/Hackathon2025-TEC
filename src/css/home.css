@@ -23,6 +23,11 @@
   .no-underline {
     text-decoration: none;
   }
+
+  a {
+    padding-top: 2.85rem;
+    padding-bottom: 7rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
