@@ -20,7 +20,11 @@ export default function Presente({ score }) {
       <div className="resultat-jeu">
         <p>Votre score final est : {score}</p>
         <Link to={`/detail/${score}`}>
-          <img src={getImageByScore(score)} alt="Image de score" />
+          <img
+            src={getImageByScore(score)}
+            alt="Image de score"
+            className="imgPresente"
+          />
         </Link>
       </div>
     </>
