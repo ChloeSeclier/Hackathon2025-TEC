@@ -75,8 +75,11 @@
     .sous-container-jeu {
       width: 96dvw;
     }
-    .sous-sous-container-jeu{
+    .sous-sous-container-jeu {
       width: 80dvw;
+    }
+    .question {
+      font-size: 1rem;
     }
   }
 }
