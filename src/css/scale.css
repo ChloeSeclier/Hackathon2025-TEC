@@ -12,9 +12,8 @@
       position: relative;
       transform-origin: center center;
       display: block;
-      color: #fce7cb;
+      color: #2f2507;
       font-size: 1.6rem;
-      /* text-align: center; */
     }
 
     .rs-range {
