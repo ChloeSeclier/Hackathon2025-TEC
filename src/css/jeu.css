@@ -3,23 +3,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../assets/background.png');
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
 
   .sous-container-jeu {
     background-color: #f5f6ed;
+    border: solid 1px rgb(75, 55, 26);
     position: relative;
     border-radius: 0.6rem;
-    width: 70dvw;
-    /* height: 55dvh; */
-    box-shadow: 10px 10px 5px #b8a765;
+    box-shadow: 7px 7px 10px #b8a765;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3vh;
     margin-bottom: 3vh;
+    width: 70dvw;
+    height: 70dvh;
   }
 
   .sous-sous-container-jeu {
@@ -30,9 +33,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 47dvh;
     z-index: 1;
-    width: 80%;
+    width: 63dvw;
+    height: 63dvh;
   }
 
   .question {
@@ -71,6 +74,15 @@
   .container-jeu {
     .sous-container-jeu {
       width: 96dvw;
+    }
+    .sous-sous-container-jeu {
+      width: 80dvw;
+    }
+    .question {
+      font-size: 1rem;
+    }
+    .button-boolean{
+      font-size: 1rem;
     }
   }
 }
