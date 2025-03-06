@@ -34,8 +34,9 @@ export default function Jeu() {
 
               {question.typeRep === 'boolean' ? (
                 //Display les 2 boutons pour vrai ou faux
-                question.reponses.map((answer, index) => (
-                  <div key={index} className="button-boolean">
+                <div className="button-boolean">
+                {question.reponses.map((answer, index) => (
+                  <div key={index} >
                     <input
                       type="radio"
                       id={answer.reponse}
@@ -45,7 +46,8 @@ export default function Jeu() {
                     />
                     <label htmlFor={answer.reponse}>{answer.reponse}</label>
                   </div>
-                ))
+                ))}
+                </div>
               ) : (
                 <Scale />
               )}
