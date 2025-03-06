@@ -6,9 +6,9 @@ export default function Politique() {
         <div className="sous-container-jeu">
           <div className="contact">
             <div className="contact-container">
-              <h2 id="politique">Politique de Confidentialité</h2>
-              <h3>Dernière mise à jour : 06/03/2025</h3>
-              <h3>1. Introduction</h3>
+              <h1 id="politique">Politique de Confidentialité</h1>
+              <p>Dernière mise à jour : 06/03/2025</p>
+              <h2>1. Introduction</h2>
               <p>
                 La présente politique de confidentialité décrit la manière dont
                 notre groupe TEC collecte, utilise, protège et partage les
@@ -17,7 +17,7 @@ export default function Politique() {
                 accédant au Jeu, vous acceptez la collecte et l'utilisation de
                 vos informations personnelles conformément à cette politique.
               </p>
-              <h3>2. Collecte des informations personnelles</h3>
+              <h2>2. Collecte des informations personnelles</h2>
               <p>
                 Nous collectons des informations personnelles lorsque vous
                 interagissez avec le Jeu. Les informations collectées peuvent
@@ -25,8 +25,7 @@ export default function Politique() {
               </p>
               <ul>
                 <li>
-                  Informations d'identification : Nom, prénom, adresse e-mail
-                  (si applicable).
+                  Informations d'identification : Chloe / Charles-Eric / Tristan
                 </li>
                 <li>
                   Données de jeu : Réponses aux questions, scores, interactions
@@ -43,7 +42,7 @@ export default function Politique() {
                 vous choisissez volontairement de les fournir, par exemple lors
                 de l’inscription ou de l’utilisation d'un service lié au Jeu.
               </p>
-              <h3>3. Utilisation des informations personnelles</h3>
+              <h2>3. Utilisation des informations personnelles</h2>
               <p>
                 Les informations collectées sont utilisées dans le cadre des
                 finalités suivantes :
@@ -67,7 +66,7 @@ export default function Politique() {
                   réglementaires, ou pour protéger nos droits.
                 </li>
               </ul>
-              <h3>4. Partage des informations personnelles</h3>
+              <h2>4. Partage des informations personnelles</h2>
               <p>
                 Nous nous engageons à ne pas vendre, louer ou échanger vos
                 informations personnelles à des tiers, sauf dans les cas
@@ -88,7 +87,7 @@ export default function Politique() {
                   procédure judiciaire.
                 </li>
               </ul>
-              <h3>5. Sécurité des données</h3>
+              <h2>5. Sécurité des données</h2>
               <p>
                 Nous prenons des mesures techniques et organisationnelles
                 appropriées pour protéger vos informations personnelles contre
@@ -98,7 +97,7 @@ export default function Politique() {
                 notre possible pour protéger vos informations, nous ne pouvons
                 garantir leur sécurité absolue.
               </p>
-              <h3>6. Cookies et technologies similaires</h3>
+              <h2>6. Cookies et technologies similaires</h2>
               <p>
                 Le Jeu peut utiliser des cookies et d'autres technologies de
                 suivi pour améliorer votre expérience utilisateur et analyser la
@@ -108,7 +107,7 @@ export default function Politique() {
                 configurer votre navigateur pour refuser les cookies, mais cela
                 pourrait affecter certaines fonctionnalités du Jeu.
               </p>
-              <h3>7. Vos droits concernant vos données personnelles</h3>
+              <h2>7. Vos droits concernant vos données personnelles</h2>
               <p>
                 Conformément au Règlement Général sur la Protection des Données
                 (RGPD) et à d’autres législations locales en matière de
@@ -146,16 +145,16 @@ export default function Politique() {
               </ul>
               <p>
                 Pour exercer vos droits, veuillez nous contacter à l'adresse
-                suivante : [Email de contact].
+                suivante : nepasecrire@vraiment.com.
               </p>
-              <h3>8. Conservation des données</h3>
+              <h2>8. Conservation des données</h2>
               <p>
                 Nous conservons vos informations personnelles aussi longtemps
                 que nécessaire pour remplir les finalités pour lesquelles elles
                 ont été collectées, y compris pour satisfaire à des obligations
                 légales, résoudre des litiges et faire respecter nos accords.
               </p>
-              <h3>9. Modifications de la politique de confidentialité</h3>
+              <h2>9. Modifications de la politique de confidentialité</h2>
               <p>
                 Nous nous réservons le droit de mettre à jour cette politique de
                 confidentialité à tout moment. Toute modification sera publiée
@@ -163,7 +162,7 @@ export default function Politique() {
                 vous encourageons à consulter cette politique régulièrement pour
                 être informé des éventuelles modifications.
               </p>
-              <h3>10. Contact</h3>
+              <h2>10. Contact</h2>
               <p>
                 Si vous avez des questions concernant cette politique de
                 confidentialité ou si vous souhaitez exercer vos droits,
@@ -171,6 +170,7 @@ export default function Politique() {
               </p>
               <ul>
                 <li>TEC-HACKATHON</li>
+                <li>nepasecrire@vraiment.com</li>
               </ul>
             </div>
           </div>
