@@ -2,18 +2,20 @@ import { useContext, useEffect, useState } from 'react';
 import { listQuestion } from '../objet/listQuestion';
 import Scale from '../components/Scale';
 import { ScaleContext, ScaleProvider } from '../components/scaleContext';
+import Presente from './Presente';
 
 export default function Jeu() {
   const [indexQuestion, setIndexQuestion] = useState(0);
   const question = listQuestion[indexQuestion];
   const [score, setScore] = useState(0);
   const [answerChoiced, setAnswerChoiced] = useState(0);
-  const { value } = useContext(ScaleContext);
+  const { value, setValue } = useContext(ScaleContext);
 
   function handleValider() {
     setScore(score + answerChoiced);
     setIndexQuestion(indexQuestion + 1);
     setAnswerChoiced(0);
+    setValue(0);
   }
   useEffect(() => {
     if (question.typeRep !== 'boolean' && listQuestion.length > indexQuestion) {
@@ -35,18 +37,18 @@ export default function Jeu() {
               {question.typeRep === 'boolean' ? (
                 //Display les 2 boutons pour vrai ou faux
                 <div className="button-boolean">
-                {question.reponses.map((answer, index) => (
-                  <div key={index} >
-                    <input
-                      type="radio"
-                      id={answer.reponse}
-                      name="jeu"
-                      value={answer.point}
-                      onChange={() => setAnswerChoiced(answer.point)}
-                    />
-                    <label htmlFor={answer.reponse}>{answer.reponse}</label>
-                  </div>
-                ))}
+                  {question.reponses.map((answer, index) => (
+                    <div key={index}>
+                      <input
+                        type="radio"
+                        id={answer.reponse}
+                        name="jeu"
+                        value={answer.point}
+                        onChange={() => setAnswerChoiced(answer.point)}
+                      />
+                      <label htmlFor={answer.reponse}>{answer.reponse}</label>
+                    </div>
+                  ))}
                 </div>
               ) : (
                 <Scale />
@@ -61,7 +63,7 @@ export default function Jeu() {
               </button>
             </>
           ) : (
-            <p className="resultat-jeu">afficher score + recompenses {score}</p>
+            <Presente score={score} />
           )}
         </div>
       </div>
