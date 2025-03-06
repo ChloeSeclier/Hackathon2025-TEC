@@ -13,6 +13,7 @@ import Politique from './pages/politique';
 import DetailPage from './pages/details';
 import Mentions from './pages/mentions';
 import Contact from './pages/contact';
+import Reglement from './pages/reglement';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,12 @@ const router = createBrowserRouter([
         path: '/regles-jeu',
         element: <ReglesJeu />,
       },
+
+      {
+        path: '/reglement',
+        element: <Reglement />,
+      },
+
       {
         path: '/jeu',
         element: <Jeu />,
