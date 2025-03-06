@@ -11,11 +11,11 @@ export default function Politique() {
               <h3>1. Introduction</h3>
               <p>
                 La présente politique de confidentialité décrit la manière dont
-                notre groupe TEC collecte, utilise, protège et partage les informations
-                personnelles que vous (l’utilisateur) fournissez lors de
-                l’utilisation de notre jeu "Gagne des vacances".
-                En accédant au Jeu, vous acceptez la collecte et l'utilisation
-                de vos informations personnelles conformément à cette politique.
+                notre groupe TEC collecte, utilise, protège et partage les
+                informations personnelles que vous (l’utilisateur) fournissez
+                lors de l’utilisation de notre jeu "Gagne des vacances". En
+                accédant au Jeu, vous acceptez la collecte et l'utilisation de
+                vos informations personnelles conformément à cette politique.
               </p>
               <h3>2. Collecte des informations personnelles</h3>
               <p>
