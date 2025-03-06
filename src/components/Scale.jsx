@@ -9,11 +9,11 @@ function Scale() {
   const bulletPosition = (value / max) * 100;
 
   return (
-    <div className="container">
+    <div className="container-scale">
       <div className="range-slider">
         <span
-          id="rs-bullet"
-          className="rs-label"
+          // id="rs-bullet"
+          className="rs-numberScale"
           style={{ left: `${bulletPosition}%` }}
         >
           {value}
@@ -30,14 +30,8 @@ function Scale() {
       </div>
 
       <div className="box-minmax">
-        <div className="form">
-          <p> En forme</p>
-          <div> 💪</div>
-        </div>
-        <div className="dead">
-          <p>T'es mort </p>
-          <div>🧟</div>
-        </div>
+        <p> En forme 💪</p>
+        <p>T'es mort 🧟</p>
       </div>
     </div>
   );

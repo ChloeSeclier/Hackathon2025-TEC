@@ -9,8 +9,10 @@ import Home from './pages/Home';
 import Lots from './pages/Lots';
 import Jeu from './components/jeu';
 import ReglesJeu from './components/reglesJeu';
-import Contact from './pages/contact';
+import Politique from './pages/politique';
 import DetailPage from './pages/details';
+import Mentions from './pages/mentions';
+import Contact from './pages/contact';
 
 const router = createBrowserRouter([
   {
@@ -36,7 +38,15 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />,
       },
-      { path: '/detail/:id', element: <DetailPage /> }, // Route pour afficher un détail
+      {
+        path: '/mentions',
+        element: <Mentions />,
+      },
+      {
+        path: '/politique',
+        element: <Politique />,
+      },
+      { path: '/detail/:id', element: <DetailPage /> },
       {
         path: '*',
         element: <Error404 />,
