@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Lots from './pages/Lots';
 import Jeu from './components/jeu';
 import ReglesJeu from './components/reglesJeu';
+import Contact from './pages/contact';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/lots',
         element: <Lots />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
       },
       {
         path: '*',
