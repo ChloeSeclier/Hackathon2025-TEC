@@ -10,15 +10,17 @@ function Lots() {
       <div className="lots">
         <h1>Cadeaux pour ta déconnexion</h1>
         <ul>
-          {details.map((item) => (
-            <li key={item.id}>
-              <h2>{item.title}</h2>
-              <Link to={`/detail/${item.id}`} className="detail">
-                <img src={item.image} alt={item.title} />
-                <p>Voir les détails</p>
-              </Link>
-            </li>
-          ))}
+          {details
+            .filter((item, index) => index !== 0) // Exclude the first item (index 0)
+            .map((item) => (
+              <li key={item.id}>
+                <h2>{item.title}</h2>
+                <Link to={`/detail/${item.id}`} className="detail">
+                  <img src={item.image} alt={item.title} />
+                  <p>Voir les détails</p>
+                </Link>
+              </li>
+            ))}
         </ul>
       </div>
     </div>

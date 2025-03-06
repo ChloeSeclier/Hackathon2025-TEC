@@ -22,9 +22,9 @@
     align-items: center;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    min-width: 60dvw;
+    /* min-width: 60dvw; */
     min-height: 70dvh;
-    margin: 10px;
+    margin-inline: 2vh;
   }
 
   .sous-sous-container-jeu {
@@ -172,6 +172,13 @@
     .button-valider {
       /* width: 30dvw; */
       font-size: 1rem;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .container-jeu {
+    .sous-container-jeu {
+      margin-inline: 0;
     }
   }
 }
