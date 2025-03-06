@@ -1,5 +1,7 @@
 .resultat-jeu {
   img {
-    width: 30vw;
+    max-width: 100%;
+    max-height: 40dvh;
   }
 }
+

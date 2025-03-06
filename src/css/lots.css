@@ -13,8 +13,8 @@
   }
 
   img {
-    width: 23.75rem;
-    height: 13.75rem;
+    width: 30vw;
+    max-height: 30vh;
     border-radius: 4%;
   }
   li {
@@ -29,6 +29,7 @@
   h1 {
     font-family: 'Cormorant', serif;
     font-size: 2rem;
+    text-align: center;
   }
   h2 {
     font-family: 'Cormorant', serif;
@@ -59,9 +60,9 @@
     }
 
     img {
-      width: 11.25rem;
-      height: 7.5rem;
-      border-radius: 4%;
+      width: 70dvw;
+      /* height: 7.5rem;
+      border-radius: 4%; */
     }
 
     h2 {
