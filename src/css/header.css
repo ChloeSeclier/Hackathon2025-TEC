@@ -85,7 +85,7 @@
       gap: 10px;
     }
 
-    li:hover {
+    
 
     li:hover {
       border-bottom: transparent;
@@ -94,9 +94,9 @@
     .open {
       display: flex;
       margin-top: 207px;
-      &::-moz-range-thumb {
-        margin-top: 267px;
-      }
+    
+    
+      
     }
-  }
-}
+  
+}}
