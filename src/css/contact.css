@@ -3,4 +3,10 @@
     text-align: center;
   }
   padding: 2vh;
+  .contact-container {
+    background-color: #2f2507;
+    padding: 2vw;
+    border-radius: 0.6rem;
+    color: aliceblue;
+  }
 }
