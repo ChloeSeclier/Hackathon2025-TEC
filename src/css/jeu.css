@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-  url('../assets/background.png');;
+  url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -13,8 +13,6 @@
     border: solid 1px rgb(75, 55, 26);
     position: relative;
     border-radius: 0.6rem;
-    width: 70dvw;
-    /* height: 55dvh; */
     box-shadow: 7px 7px 10px #b8a765;
     display: flex;
     flex-direction: column;
@@ -22,6 +20,8 @@
     align-items: center;
     margin-top: 3vh;
     margin-bottom: 3vh;
+    width: 70dvw;
+    height: 70dvh;
   }
 
   .sous-sous-container-jeu {
@@ -32,8 +32,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 47dvh;
     z-index: 1;
+    width: 63dvw;
+    height: 63dvh;
   }
 
   .question {
