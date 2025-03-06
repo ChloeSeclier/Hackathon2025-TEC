@@ -34,7 +34,9 @@ export default function Header() {
           <li>
             <Link to="/Lots">Cadeaux</Link>
           </li>
-          <li>Règlement</li>
+          <li>
+            <Link to="/Reglement">Règlement</Link>
+          </li>
         </ul>
       </header>
     </>

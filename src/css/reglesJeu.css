@@ -1,6 +1,6 @@
 .container-regle {
   text-align: center;
-  height: 90dvh;
+  max-height: 120dvh;
 
   h2 {
     margin-top: 1.8rem;
