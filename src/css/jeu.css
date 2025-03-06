@@ -8,6 +8,7 @@
     url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 90dvh;
 
   .sous-container-jeu {
     background-color: #f0c256;
@@ -44,6 +45,7 @@
     font-size: 1.8rem;
     text-align: center;
     padding-top: 1.8rem;
+    font-weight: bold;
   }
 
   .button-boolean {
@@ -60,7 +62,7 @@
 
     .label-boolean {
       background-color: #2f2507;
-      width: 11%;
+      padding: 0.2rem 1.2rem 0.2rem 1rem;
       border-radius: 70px;
       color: #fce7cb;
       margin-top: 2%;

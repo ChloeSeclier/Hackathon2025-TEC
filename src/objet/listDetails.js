@@ -1,5 +1,12 @@
 export const details = [
   {
+    id: 0,
+    title: 'Séance Yoga',
+    image: '../src/assets/image-lot-1.jpg',
+    description:
+      "Le yoga offre une multitude de bienfaits pour le corps, l'esprit et l'âme. Il aide à renforcer le corps, à améliorer la flexibilité, à réduire le stress, à favoriser la concentration et la paix intérieure, tout en offrant une opportunité de se reconnecter à soi-même et aux autres. C'est une pratique holistique qui soutient non seulement la santé physique, mais aussi le bien-être mental et émotionnel.",
+  },
+  {
     id: 1,
     title: 'Séance Yoga',
     image: '../src/assets/image-lot-1.jpg',

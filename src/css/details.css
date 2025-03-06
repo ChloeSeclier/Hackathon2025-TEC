@@ -34,7 +34,7 @@
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .details {
-    min-height: 70vh;
+    min-height: 90vh;
     h1 {
       font-size: 1.2rem;
     }
