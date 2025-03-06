@@ -21,8 +21,8 @@
     align-items: center;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    width: 70dvw;
-    height: 70dvh;
+    min-width: 70dvw;
+    min-height: 70dvh;
   }
 
   .sous-sous-container-jeu {
