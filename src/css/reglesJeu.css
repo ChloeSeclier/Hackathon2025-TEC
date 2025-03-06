@@ -1,14 +1,29 @@
 .container-regle {
   text-align: center;
-  line-height: 0.9rem;
+  /* line-height: 0.9rem; */
+
+  h2 {
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 1.8rem;
+  }
 
   p {
-    margin-bottom: 0rem;
-    font-weight: 700;
+    font-weight: 500;
+    margin-top: 0.2rem;
+    font-size: 1.6rem;
   }
-  h2 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.3rem;
-    font-weight: bolder;
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+
+    h2 {
+      font-size: 1rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
   }
 }

@@ -8,7 +8,7 @@ import Error404 from './pages/error404';
 import Home from './pages/Home';
 import Lots from './pages/Lots';
 import Jeu from './components/jeu';
-import ReglesJeu from './components/reglesJeu';
+import ReglesJeu from './pages/reglesJeu';
 import Politique from './pages/politique';
 import DetailPage from './pages/details';
 import Mentions from './pages/mentions';
