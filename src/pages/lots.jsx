@@ -13,10 +13,11 @@ function Lots() {
           {details.map((item) => (
             <li key={item.id}>
               <h2>{item.title}</h2>
-              <img src={item.image} alt={item.title} />
+
               {/* <p>{item.description}</p> */}
               <Link to={`/detail/${item.id}`} className="detail">
-                Voir les détails
+                <img src={item.image} alt={item.title} />
+                <p>Voir les détails</p>
               </Link>
             </li>
           ))}
