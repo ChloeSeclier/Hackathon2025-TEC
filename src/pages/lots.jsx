@@ -13,8 +13,6 @@ function Lots() {
           {details.map((item) => (
             <li key={item.id}>
               <h2>{item.title}</h2>
-
-              {/* <p>{item.description}</p> */}
               <Link to={`/detail/${item.id}`} className="detail">
                 <img src={item.image} alt={item.title} />
                 <p>Voir les détails</p>
