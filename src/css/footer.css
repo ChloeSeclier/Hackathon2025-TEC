@@ -1,7 +1,7 @@
 .footer {
-  border: red solid 1px;
-}
-/* pour cibler un element utiliser les chevrons (ex: elementParent>elementChildren) */
-.footer > p {
+  background-color: #f0c256;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  gap: 1vh;
 }
