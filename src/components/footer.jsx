@@ -5,8 +5,8 @@ export default function Footer() {
     <>
       <footer className="footer">
         <Link to="/contact"> Contact</Link>
-        <Link to="/contact"> Politique de confidentialitée</Link>
-        <Link to="/contact"> Mentions légales</Link>
+        <Link to="/politique"> Politique de confidentialitée</Link>
+        <Link to="/mentions"> Mentions légales</Link>
       </footer>
     </>
   );
