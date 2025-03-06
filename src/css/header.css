@@ -87,6 +87,9 @@
     .open {
       display: flex;
       margin-top: 207px;
+      &::-moz-range-thumb {
+        margin-top: 267px;
+      }
     }
   }
 }

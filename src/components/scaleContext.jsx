@@ -10,7 +10,7 @@ const ScaleProvider = ({ children }) => {
   };
 
   return (
-    <ScaleContext.Provider value={{ value, handleSliderChange }}>
+    <ScaleContext.Provider value={{ value, handleSliderChange, setValue }}>
       {children}
     </ScaleContext.Provider>
   );

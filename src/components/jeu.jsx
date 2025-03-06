@@ -2,18 +2,20 @@ import { useContext, useEffect, useState } from 'react';
 import { listQuestion } from '../objet/listQuestion';
 import Scale from '../components/Scale';
 import { ScaleContext, ScaleProvider } from '../components/scaleContext';
+import Presente from './Presente';
 
 export default function Jeu() {
   const [indexQuestion, setIndexQuestion] = useState(0);
   const question = listQuestion[indexQuestion];
   const [score, setScore] = useState(0);
   const [answerChoiced, setAnswerChoiced] = useState(0);
-  const { value } = useContext(ScaleContext);
+  const { value, setValue } = useContext(ScaleContext);
 
   function handleValider() {
     setScore(score + answerChoiced);
     setIndexQuestion(indexQuestion + 1);
     setAnswerChoiced(0);
+    setValue(0);
   }
   useEffect(() => {
     if (question.typeRep !== 'boolean' && listQuestion.length > indexQuestion) {
@@ -73,7 +75,7 @@ export default function Jeu() {
               </button>
             </>
           ) : (
-            <p className="resultat-jeu">afficher score + recompenses {score}</p>
+            <Presente score={score} />
           )}
         </div>
       </div>
