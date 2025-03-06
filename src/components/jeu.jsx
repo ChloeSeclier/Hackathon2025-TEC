@@ -36,7 +36,7 @@ export default function Jeu() {
                 //Display les 2 boutons pour vrai ou faux
                 <div className="button-boolean">
                   {question.reponses.map((answer, index) => (
-                    <div key={index}>
+                    <div key={index} className='label-boolean'>
                       <input
                         type="radio"
                         id={answer.reponse}
@@ -57,7 +57,19 @@ export default function Jeu() {
                 onClick={handleValider}
                 className="button-valider"
               >
-                Valider
+                
+
+
+    <span class="circle1"></span>
+    <span class="circle2"></span>
+    <span class="circle3"></span>
+    <span class="circle4"></span>
+    <span class="circle5"></span>
+    <span class="text">Valider</span>
+
+
+
+
               </button>
             </>
           ) : (
