@@ -7,14 +7,13 @@ export default function Politique() {
           <div className="contact">
             <div className="contact-container">
               <h2 id="politique">Politique de Confidentialité</h2>
-              <h3>Dernière mise à jour : [Date]</h3>
+              <h3>Dernière mise à jour : 06/03/2025</h3>
               <h3>1. Introduction</h3>
               <p>
                 La présente politique de confidentialité décrit la manière dont
-                [Nom de l’entreprise / du développeur] (ci-après « nous » ou «
-                notre ») collecte, utilise, protège et partage les informations
+                notre groupe TEC collecte, utilise, protège et partage les informations
                 personnelles que vous (l’utilisateur) fournissez lors de
-                l’utilisation de notre jeu [Nom du Jeu] (ci-après « le Jeu »).
+                l’utilisation de notre jeu "Gagne des vacances".
                 En accédant au Jeu, vous acceptez la collecte et l'utilisation
                 de vos informations personnelles conformément à cette politique.
               </p>
@@ -171,10 +170,7 @@ export default function Politique() {
                 veuillez nous contacter à l'adresse suivante :
               </p>
               <ul>
-                <li>[Nom de l’entreprise]</li>
-                <li>[Adresse]</li>
-                <li>[Téléphone]</li>
-                <li>[Email de contact]</li>
+                <li>TEC-HACKATHON</li>
               </ul>
             </div>
           </div>
