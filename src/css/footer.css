@@ -1,5 +1,5 @@
 .footer {
-  min-height: 10vh;
+  height: 4dvh;
   background-color: #f0c256;
   display: flex;
   justify-content: center;
@@ -17,7 +17,6 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
   .footer {
-    min-height: 8vh;
     a {
       font-size: 0.8rem;
     }

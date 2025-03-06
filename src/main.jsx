@@ -47,6 +47,7 @@ const router = createBrowserRouter([
         element: <Politique />,
       },
       { path: '/detail/:id', element: <DetailPage /> },
+      { path: '/detail/:score', element: <DetailPage /> },
       {
         path: '*',
         element: <Error404 />,
