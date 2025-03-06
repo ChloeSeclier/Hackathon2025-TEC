@@ -10,6 +10,7 @@
   align-items: center;
   text-align: center;
   padding: 1rem;
+  min-height: 90dvh;
 
   h1 {
     font-size: 2rem;
