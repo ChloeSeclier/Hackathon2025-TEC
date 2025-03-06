@@ -1,0 +1,39 @@
+.reglement {
+  background-color: #f9edd9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+  }
+
+  .grand-p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 72dvw;
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .reglement {
+    .grand-p {
+      width: 97dvw;
+      h2 {
+        font-size: 1rem;
+      }
+      h3 {
+        font-size: 0.9rem;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
