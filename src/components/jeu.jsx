@@ -30,9 +30,7 @@ export default function Jeu() {
         <div className="sous-sous-container-jeu">
           {listQuestion.length > indexQuestion ? (
             <>
-              <div className="question">
-                {listQuestion[indexQuestion].question}
-              </div>
+              <p className="question">{listQuestion[indexQuestion].question}</p>
               <div className="button-boolean">
                 {question.typeRep === 'boolean' ? (
                   //Display les 2 boutons pour vrai ou faux
@@ -61,7 +59,7 @@ export default function Jeu() {
               </button>
             </>
           ) : (
-            <p>afficher score + recompenses {score}</p>
+            <p className="resultat-jeu">afficher score + recompenses {score}</p>
           )}
         </div>
       </div>

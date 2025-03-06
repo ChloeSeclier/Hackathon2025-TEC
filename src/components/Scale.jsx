@@ -6,7 +6,7 @@ function Scale() {
   const { value, handleSliderChange } = useContext(ScaleContext);
 
   const max = 5;
-  const bulletPosition = (value / max) * 578;
+  const bulletPosition = (value / max) * 100;
 
   return (
     <div className="container">
@@ -14,7 +14,7 @@ function Scale() {
         <span
           id="rs-bullet"
           className="rs-label"
-          style={{ left: `${bulletPosition}px` }}
+          style={{ left: `${bulletPosition}%` }}
         >
           {value}
         </span>
@@ -30,8 +30,14 @@ function Scale() {
       </div>
 
       <div className="box-minmax">
-        <span>En forme 💪</span>
-        <span>T'es mort 🧟</span>
+        <div className="form">
+          <p> En forme</p>
+          <div> 💪</div>
+        </div>
+        <div className="dead">
+          <p>T'es mort </p>
+          <div>🧟</div>
+        </div>
       </div>
     </div>
   );

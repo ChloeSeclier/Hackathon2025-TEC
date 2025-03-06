@@ -8,9 +8,18 @@
   background-size: cover;
 
   .sous-container-jeu {
-    background-color: #f0c256;
-    margin: 1rem;
+    background-color: #f5f6ed;
+    position: relative;
     border-radius: 0.6rem;
+    width: 70dvw;
+    /* height: 55dvh; */
+    box-shadow: 10px 10px 5px #b8a765;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 
   .sous-sous-container-jeu {
@@ -18,11 +27,19 @@
     border-radius: 0.6rem;
     margin: 0.5rem;
     padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 47dvh;
+    z-index: 1;
+    width: 80%;
   }
 
   .question {
     color: #fce7cb;
     font-size: 1.8rem;
+    text-align: center;
+    padding-top: 1.8rem;
   }
 
   .button-boolean {
@@ -31,8 +48,9 @@
     font-size: 1.8rem;
     display: flex;
     flex-direction: row;
-    width: 50%;
-    background-color: #f0c256;
+    justify-content: space-around;
+    align-self: center;
+    width: 50dvw;
   }
 
   /* CSS A TROUVER STYLE */
@@ -40,5 +58,19 @@
     font-family: 'Cormorant', serif;
     font-size: 1.8rem;
     margin: 1rem;
+    align-self: center;
+  }
+
+  .resultat-jeu {
+    color: #fce7cb;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-jeu {
+    .sous-container-jeu {
+      width: 96dvw;
+    }
   }
 }
