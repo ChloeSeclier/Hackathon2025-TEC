@@ -54,6 +54,17 @@
     justify-content: space-around;
     align-self: center;
     width: 50dvw;
+
+    .label-boolean{
+      background-color: #F0C256;
+      padding: 0rem 0.5rem 0rem 0.5rem;
+      width: 20%;
+      border-radius: 70px;
+      color: #2f2507;
+    }
+    .label-boolean:hover{
+      box-shadow: 3px 3px 10px #b8a765;
+    }
   }
 
   /* CSS A TROUVER STYLE */
@@ -83,6 +94,7 @@
     }
     .button-boolean {
       font-size: 1rem;
+      width: 100%;
     }
   }
 }
