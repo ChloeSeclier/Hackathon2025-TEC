@@ -10,6 +10,7 @@ import Lots from './pages/Lots';
 import Jeu from './components/jeu';
 import ReglesJeu from './components/reglesJeu';
 import Contact from './pages/contact';
+import DetailPage from './pages/details';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />,
       },
+      { path: '/detail/:id', element: <DetailPage /> }, // Route pour afficher un détail
       {
         path: '*',
         element: <Error404 />,

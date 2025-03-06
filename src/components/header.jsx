@@ -24,7 +24,7 @@ export default function Header() {
         </div>
         <ul
           onClick={() => {
-            setMenuOpen(!menuOpen);
+            setMenuOpen(false); // Optionnel, cela fermera le menu quand un élément est cliqué
           }}
           className={`link-header ${menuOpen ? 'open' : ''}`}
         >

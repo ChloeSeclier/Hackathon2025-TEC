@@ -32,6 +32,9 @@
     display: flex;
     justify-content: center;
   }
+  .details {
+    text-align: center;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
