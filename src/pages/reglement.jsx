@@ -44,8 +44,8 @@ export default function Reglement() {
         </p>
         <h3>ARTICLE 7 : ANNONCE DES GAGNANTS ET REMISE DES LOTS</h3>
         <p>
-          Les gagnants seront contactés par e-mail ou par téléphone dans un
-          délai de [X] jours après la fin du Jeu.
+          Les gagnants seront contactés le 8 mars 2025 au plus tard par e-mail ou par téléphone dans un
+          délai de 2 jours après la fin du Jeu.
         </p>
         <h3>ARTICLE 8 : RESPONSABILITÉS</h3>
         <p>
