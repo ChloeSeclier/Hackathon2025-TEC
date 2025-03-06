@@ -8,6 +8,8 @@
     url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 90dvh;
+  
 
   .sous-container-jeu {
     background-color: #f0c256;
