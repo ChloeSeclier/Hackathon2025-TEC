@@ -28,24 +28,21 @@
         height: 10px;
         border-radius: 30px;
         cursor: pointer;
-        background: #F0C256;
+        background: #f0c256;
       }
-      
+
       &::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
         width: 20px;
         height: 20px;
         background: #f5f6ed; /* Change la couleur du "rond" du slider */
-        border: solid 2px #2F2507;
+        border: solid 2px #2f2507;
         margin-top: -5px;
         border-radius: 50%;
         cursor: pointer;
       }
     }
-    
-    
-
   }
 
   .box-minmax {
@@ -62,6 +59,5 @@
     .box-minmax {
       font-size: 0.8rem;
     }
-
   }
 }
