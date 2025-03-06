@@ -1,6 +1,7 @@
 import '../css/home.css';
 import Carousel from '../components/Carousel';
 import { Link } from 'react-router-dom';
+import ButtonTry from '../components/buttonTry';
 
 export default function Home() {
   return (
