@@ -1,12 +1,12 @@
 {
-  "name": "hack",
+  "name": "hackathon2025-TEC",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://chloeseclier.github.io/hack",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --config vite.config.prod.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "npx prettier --write ."
