@@ -1,7 +1,9 @@
 import '../css/header.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-// dans le header, on peut utimiser que des balise div,nav,menu,ul et li
+
+import logo from '../assets/logo.png'
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -9,7 +11,7 @@ export default function Header() {
     <>
       <header className="header">
         <Link to="/">
-          <img src="src\assets\logo.png" alt="" />
+          <img src={logo} alt="" />
         </Link>
 
         <div
