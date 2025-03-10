@@ -1,20 +1,24 @@
 import '../css/presente.css';
 import { Link } from 'react-router-dom';
-import { details } from '../objet/listDetails'; // Importer les données
+// import { details } from '../objet/listDetails'; // Importer les données
+// Importation des images
+import Lot1 from '../assets/image-lot-1.jpg';
+import Lot2 from '../assets/image-lot-2.jpg';
+import Lot3 from '../assets/image-lot-3.jpg';
 
 export default function Presente({ score }) {
   console.log({ score });
 
-  const detail = details.find((detail) => detail.id === score);
   function getImageByScore(score) {
-    if (score == 3) {
-      return '../src/assets/image-lot-3.jpg'; // Exemple pour un score élevé
-    } else if (score == 2) {
-      return '../src/assets/image-lot-2.jpg'; // Exemple pour un score moyen
+    if (score === 3) {
+      return Lot3; 
+    } else if (score === 2) {
+      return Lot2; 
     } else {
-      return '../src/assets/image-lot-1.jpg'; // Exemple pour un score faible
+      return Lot1; 
     }
   }
+
   return (
     <>
       <div className="resultat-jeu">
