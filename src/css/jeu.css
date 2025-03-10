@@ -56,8 +56,9 @@
     align-items: center;
 
     align-self: center;
-    width: 50dvw;
+    width: 50%;
 
+    
     .label-boolean {
       background-color: #2f2507;
       padding: 0.2rem 1.2rem 0.2rem 1rem;
@@ -67,6 +68,11 @@
       display: flex;
       justify-content: start;
       align-items: center;
+
+      label{
+        width: 100%;
+      }
+
     }
     .label-boolean:hover {
       box-shadow: 3px 3px 10px #b8a765;
